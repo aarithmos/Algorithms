@@ -22,11 +22,10 @@
   </head>
   <body class="demo-2">
     <main>
-      <div class="segmenter" style="background-image: url(img/b.jpg)"></div>
+      <div class="segmenter" style="background-image: url(img/2.jpg)"></div>
       <h2 class="trigger-headline trigger-headline--hidden"><span>A</span><span>r</span><span>i</span><span>t</span><span>h</span><span>m</span><span>o</span><span>s</spam></h2>
       <div class="bottom-nav">
-        <button class="btn btn--trigger">Get Started</button>
-        <button class="btn btn--trigger1">Learn More</button>
+        <button class="btn btn--trigger">Learn More</button>
       </div>
     </main>
     <script src="js/anime.min.js"></script>
@@ -36,7 +35,6 @@
     (function() {
       var headline = document.querySelector('.trigger-headline'),
         trigger = document.querySelector('.btn--trigger'),
-        trigger1 = document.querySelector('.btn--trigger1'),
         segmenter = new Segmenter(document.querySelector('.segmenter'), {
           pieces: 4,
           animation: {
@@ -54,16 +52,11 @@
           ],
           onReady: function() {
             trigger.classList.remove('btn--hidden');
-            trigger1.classList.add('btn--hidden1');
-            trigger.addEventListener('mouseover', function() {
-              segmenter.animate();
-              headline.classList.remove('trigger-headline--hidden');
-              this.classList.add('btn--hidden');
-              trigger1.classList.remove('btn--hidden1');
-            });
-            trigger1.addEventListener('click', function() {
+            segmenter.animate();
+            headline.classList.remove('trigger-headline--hidden');   
+            trigger.addEventListener('click', function() {
               headline.classList.add('trigger-headline--hidden');
-               var duration = 2500;
+               var duration = 2000;
              setTimeout(function() {
                      window.location.href = "/about";
                       }, duration);
