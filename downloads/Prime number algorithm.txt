@@ -1,0 +1,16 @@
+Prime number algorithm
+
+1. Function isprime(value)
+2. if value modulus 2 == 0
+3.    return false
+4. i = 3
+5.  while i < square root (value)
+6.    If value modulus i == 0
+7.        return false
+8.        i = i +2
+9.    end while
+10. return false
+11. end isprime
+
+
+ 
