@@ -7,7 +7,7 @@ permalink: /Data Structures/
 
 [Linked List addition after the node](/downloads/Linked List add after the node.txt)
 
-[Linked List add before the node.txt](/downloads/Linked List add before the node.txt)
+[Linked List add before the node](/downloads/Linked List add before the node.txt)
 
 [Linked List add item at the beginning](/downloads/Linked List Add from begin.txt)
 
