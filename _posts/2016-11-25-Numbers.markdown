@@ -2,6 +2,7 @@
 layout: post
 title:  "Numbers"  
 author: "Prime Armstrong Number Reverse Digits Palindrome Number Factorial of a Number Fibonacci Series "
+permalink: /Numbers/
 ---
 
 
