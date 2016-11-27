@@ -1,0 +1,7 @@
+﻿Character At position
+1. Function Char_At( char[] , pos )          //character present at a particular index
+2. if( pos < 0 || pos > n)
+3.    print( “index is outside the array bounds” )
+4. else
+5.     return char[pos]
+6. end Char_At 

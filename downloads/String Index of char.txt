@@ -1,0 +1,13 @@
+﻿String Index of char
+1. Function Index_of( char[] , ch )       // ch is the character who’s index is needed
+2. i = 0
+3. pos = -1
+4. while( char[i] != ‘/0’ )
+5.    if( char[] == ch )
+6.       pos = i
+7.       break                                              // breaks out of the loop as the position is found
+8.       end if 
+9.    i++
+10.    end while 
+11. return  pos
+12. end Index_of

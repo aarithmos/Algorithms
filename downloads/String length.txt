@@ -1,0 +1,7 @@
+﻿String length
+1. Function String_length( char[] )
+2. count = 0
+3. while( char[count] != ‘/0’ )
+4.    count++
+5. return count+1
+6. end String_length  
