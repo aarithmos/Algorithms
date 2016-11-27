@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Sorting Algorithms"
+author: "Bubble Insertion Selection Sort Quick Count "
+permalink: /Sorting Algorithms/
+---
+[Bubble Sort](/downloads/Bubble sort.txt)
+
+[Insertion Sort](/downloads/Insertion sort.txt)
+
+[Count Sort](/downloads/Count sort.txt)
+
+[Quick Sort](/downloads/Quicksort Algorithm.txt)

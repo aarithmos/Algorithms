@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Search Algorithms"
+author: "Binary Search"
+permalink: /Search Algorithms/
+---
+[Binary Search](/downloads/Binary Search.txt)
