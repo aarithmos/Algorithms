@@ -11,7 +11,7 @@ description: > # Downloadable Algorithms
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: https://twitter.com/ROnAx13 
-github_username:  ronork
-google_analytics: 
+github_username:  aarithmos
+google_analytics: UA-88076867-1
 # Build settings
 markdown: kramdown
