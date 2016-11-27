@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Numbers"  
+author: "Prime Armstrong Number Reverse Digits Palindrome Number Factorial of a Number Fibonacci Series "
+---
+
+
+[Prime Generating Algorithm-1](/downloads/Prime number algorithm.txt)
+
+[Armstrong Number](/downloads/Armstrong Number.txt)
+
+[Reverse Digits](/downloads/Digits_in_reverse.txt)
+
+[Palindrome Number](/downloads/Palindrome number.txt)
+
+[Factorial of a Number](/downloads/Factorial.txt)
+
+[Fibonacci Series](/downloads/Fibonacci.txt)
