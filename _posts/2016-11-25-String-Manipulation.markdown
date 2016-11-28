@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title:  "String Manipulation"
-author: "Palindrome String"
+author: "Palindrome String Index of char length Character At position"
 permalink: /String Manipulation/
 ---
 
