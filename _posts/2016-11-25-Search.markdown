@@ -4,4 +4,53 @@ title:  "Search Algorithms"
 author: "Binary Search"
 permalink: /Search Algorithms/
 ---
-[Binary Search](/downloads/Binary Search.txt)
+* [Binary Search](#binary-search)
+
+* [Interpolation Search](#interpolation-search)
+
+### Binary Search 
+
+```
+1. Function binary_search(begin, end , array[] ,value) // value is the item to be searched
+2. mid = (begin+end)/2  // begin and end are indexes of first and last element of array
+3. while (begin <= end)
+4.    if(array[mid] == value)
+5.       return true
+6.    else if(array[mid] < value)
+7.       begin = mid
+8.    else
+9.       end = mid
+10. end while
+11. end binary_search
+
+```
+### Interpolation Search
+
+```
+1. Function interpolation_search( array[] , size , item )
+2. low = 0 
+3. mid = -1
+4. high = size-1
+5. flag = 0
+6. while( low <= high && array[low] <= item && array[high] >= item )
+7.    mid = low + ((high - low ) / (array[high] - array[low] )) * ( item – array[low] )
+8.    if( array[mid] == item )
+9.       print(mid)
+          flag = 1
+10.       return
+11.       end if
+12.    else if( array[mid] < item )
+13.       low = mid + 1
+14.    else
+14.       high = mid - 1
+16.     end while
+17. if( flag == 0 )
+18.    print( “Element not found” )
+19.    end if 
+20. end interpolation_search
+
+```
+
+[BACK TO THE TOP](#top)                                           
+
+ [![](/img/back.png)](/search)
