@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /Single-Linked-List/
 ---
  [![](/img/back.png)](/Data-Structures/)
 
