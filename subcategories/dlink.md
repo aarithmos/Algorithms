@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /D-Link/
 ---
  [![](/img/back.png)](/Data-Structures/)
 
