@@ -188,4 +188,4 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 
 [BACK TO THE TOP](#top)                                           
 
- [![](/img/back.png)](/search)      
+ [![](/img/back.png)](/search/)      
