@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /Search Algorithms/
+permalink: /Cd-Link/
 ---
  [![](/img/back.png)](/Cd-Link/)
 
