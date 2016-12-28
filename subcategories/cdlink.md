@@ -3,7 +3,7 @@ layout: post
 ---
  [![](/img/back.png)](/Data-Structures/)
 
-## Circular Doubly Linked List
+## Circulars Doubly Linked List
 
 * [Addition after the node](#addition-after-the-node)
 
