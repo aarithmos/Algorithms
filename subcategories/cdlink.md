@@ -1,7 +1,8 @@
 ---
 layout: post
+permalink: /Search Algorithms/
 ---
- [![](/img/back.png)](/Data-Structures/)
+ [![](/img/back.png)](/Cd-Link/)
 
 ## Circular Doubly Linked List
 
