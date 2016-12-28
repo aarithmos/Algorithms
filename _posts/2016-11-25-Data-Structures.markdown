@@ -5,12 +5,12 @@ author: "Linked List "
 permalink: /Data-Structures/
 ---
 
-* [Single Linked List](/subcategories/link)
+* [Single Linked List](/subcategories/link/)
 
-* [Circular Doubly Linked List](/subcategories/cdlink)
+* [Circular Doubly Linked List](/subcategories/cdlink/)
 
-* [Circular Linked List](/subcategories/clink)
+* [Circular Linked List](/subcategories/clink/)
 
-* [Doubly Linked List](/subcategories/dlink)
+* [Doubly Linked List](/subcategories/dlink/)
 
 [![](/img/back.png)](/Search/)
