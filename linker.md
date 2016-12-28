@@ -3,7 +3,7 @@ layout: subs
 ---
  [![](/img/back.png)](/Data-Structures/)
 
-## Linked List
+### Linked List
 
 * [Addition after the node](#addition-after-the-node)
 
