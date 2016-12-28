@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Data Structures"
@@ -14,4 +13,4 @@ permalink: /Data-Structures/
 
 * [Doubly Linked List](/subcategories/dlink)
 
-[![](/img/back.png)](/search)
+[![](/img/back.png)](/search/)
