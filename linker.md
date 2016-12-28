@@ -1,5 +1,5 @@
 ---
-layout: subs
+layout: page
 ---
  [![](/img/back.png)](/Data-Structures/)
 
