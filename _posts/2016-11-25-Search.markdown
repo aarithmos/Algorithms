@@ -24,7 +24,9 @@ permalink: /Search Algorithms/
 11. end binary_search
 
 ```
+
 ### Interpolation Search
+
 
 ```
 1. Function interpolation_search( array[] , size , item )
