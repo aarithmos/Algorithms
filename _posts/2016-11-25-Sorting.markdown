@@ -6,7 +6,6 @@ permalink: /Sorting Algorithms/
 ---
 
 
-
 * [Bubble Sort](#bubble-sort)
 
 * [Insertion Sort](#insertion-sort)
@@ -19,6 +18,15 @@ permalink: /Sorting Algorithms/
 
 
 ### Bubble Sort
+
+Complexity:-
+
+Time complexity(Best): __O(n)__
+
+Time complexity(Worst): __O(n ^ 2)__
+
+Space complexity: __O(1)__
+
 
 ```
 
@@ -42,6 +50,14 @@ permalink: /Sorting Algorithms/
 
 ### Insertion Sort
 
+Complexity:-
+
+Time complexity(Best): __O(n)__
+
+Time complexity(Worst): __O(n ^ 2)__
+
+Space complexity: __O(1)__
+
 ```
 
 1. Function Insertionsort(array[] , size)
@@ -59,6 +75,14 @@ permalink: /Sorting Algorithms/
 ```
 
 ### Count Sort
+
+Complexity:-
+
+Time complexity(Best): __O(n + k)__ where n is the number of elements and k is the range
+
+Time complexity(Worst):__O(n + k)__
+
+Space complexity:__O(n + k)__
 
 ```
 
@@ -84,9 +108,15 @@ permalink: /Sorting Algorithms/
 
 ### Quick Sort
 
-```
-Quicksort Algorithm
+Complexity:-
 
+Time complexity(Best):__O(n * log(n))__
+
+Time complexity(Worst):__O(n ^ 2)__
+
+Space complexity:__O(n)__
+
+```
 1. Function quicksort(begin , end , array[])
 2. pivot = array[(begin+end)/2]
 3. i = begin
@@ -113,6 +143,14 @@ Quicksort Algorithm
 ```
 
 ### Merge Sort
+
+Complexity:-
+
+Time complexity(Best): __O(n * log(n))__
+
+Time complexity(Worst): __O(n * log(n))__
+
+Space complexity: __O(n)__
 
 ```
 1. Function merge_sort( array[] , begin , end )      //function which splits the array 
@@ -162,4 +200,4 @@ Quicksort Algorithm
 
 [BACK TO THE TOP](#top)                                           
 
- [![](/img/back.png)](/Search/)
+ [![](/img/back.png)](/search)
