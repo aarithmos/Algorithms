@@ -5,6 +5,9 @@ author: "Circular Doubly Linked List "
 permalink: /Circular-Doubly-Linked-List/
 ---
 
+A linked list is a linear collection of data elements called nodes(data and address) each pointing to the next node by means of a pointer(variable which contains the address of next node). It is a data structure consisting of a group of nodes which together represent a sequence.A Circular Doubly linked list has a previous pointer in the node in addition with the features of single linked list. This previous node pointes to node preceding the current node.Moreover the next pointer of the last node of the list points to the first node of the list and the previous pointer(pointer that has the address of previous element) of the first element points to the last element.
+
+
 * [Addition after the node](#addition-after-the-node)
 
 * [Add before the node](#add-before-the-node)
@@ -13,7 +16,7 @@ permalink: /Circular-Doubly-Linked-List/
 
 * [Add item at the end](#add-item-at-the-end)
 
-* [Deleting a node inbetween](#deleting-a-node-inbetween)
+* [Deleting a node in between](#deleting-a-node-in-between)
 
 * [Deleting a node at the end](#deleting-a-node-at-the-end)
 
@@ -21,6 +24,10 @@ permalink: /Circular-Doubly-Linked-List/
 
 
 ### Addition after the node
+
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
 
 ```
 Function Circular_Doubly_Linked_list_add_After( START , data , item)   //item is the data of the node after which we need to insert
@@ -41,6 +48,10 @@ Function Circular_Doubly_Linked_list_add_After( START , data , item)   //item is
 ```
 
 ### Add before the node
+
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
 
 ```
 Function Circular_Doubly_Linked_list_add_before( START , data , item) 
@@ -63,6 +74,10 @@ Function Circular_Doubly_Linked_list_add_before( START , data , item)
 
 ### Add item at the beginning
 
+Time complexity: __O(1)__
+
+Space complexity: __O(1)__
+
 ```
 1. Function doubly_circular_linked_list_add_begin( START , data )
 2. new_node = new node
@@ -84,6 +99,10 @@ Function Circular_Doubly_Linked_list_add_before( START , data , item)
 
 ### Add item at the end
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
 ```
 Function Doubly_Circular_Linked_list_add_end( START , data)
 1. new_node = new node
@@ -104,7 +123,11 @@ Function Doubly_Circular_Linked_list_add_end( START , data)
 
 ```
 
-### Deleting a node inbetween
+### Deleting a node in between
+
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
 
 ```
 Function Circular_Doubly_Linked_list_delete_between(START , item)
@@ -127,6 +150,10 @@ Function Circular_Doubly_Linked_list_delete_between(START , item)
 
 ### Deleting a node at the end
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
 ```
 Function Doubly_Circular_Linked_list_delete_end(START)
 1. if( START == NULL)
@@ -147,6 +174,10 @@ Function Doubly_Circular_Linked_list_delete_end(START)
 ```
 
 ### Deleting a node at the beginning
+
+Time complexity: __O(1)__
+
+Space complexity: __O(1)__
 
 ```
 Function Doubly_Cirucular_Linked_list_delete_begin(START)
