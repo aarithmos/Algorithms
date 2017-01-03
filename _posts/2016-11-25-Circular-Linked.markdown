@@ -5,6 +5,9 @@ author: "Circular Linked List "
 permalink: /Circular-Linked-List/
 ---
 
+A linked list is a linear collection of data elements called nodes(data and address) each pointing to the next node by means of a pointer(variable which contains the address of next node). It is a data structure consisting of a group of nodes which together represent a sequence.A Circular linked list  has same features as the single linked list except the last node of the linked list points to the first node of list(START).
+
+
 * [Addition after the node](#addition-after-the-node)
 
 * [Add before the node](#add-before-the-node)
@@ -13,7 +16,7 @@ permalink: /Circular-Linked-List/
 
 * [Add item at the end](#add-item-at-the-end)
 
-* [Deleting a node inbetween](#deleting-a-node-inbetween)
+* [Deleting a node in between](#deleting-a-node-in-between)
 
 * [Deleting a node at the end](#deleting-a-node-at-the-end)
 
@@ -21,6 +24,10 @@ permalink: /Circular-Linked-List/
 
 
 ### Addition after the node
+
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
 
 ```
 Function Circular_Linked_list_add_After( START , data , item)   //item is the data of the node after which we need to insert
@@ -40,6 +47,10 @@ Function Circular_Linked_list_add_After( START , data , item)   //item is the da
 
 ### Add before the node
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
 ```
 Function Circular_Linked_list_add_before( START , data , item) 
 1. new_node = new node
@@ -57,6 +68,10 @@ Function Circular_Linked_list_add_before( START , data , item)
 ```
 
 ### Add item at the beginning
+
+Time complexity: __O(1)__
+
+Space complexity: __O(1)__
 
 ```
 1. Function circular_linked_list_add_begin( START , data )
@@ -80,6 +95,10 @@ Function Circular_Linked_list_add_before( START , data , item)
 
 ### Add item at the end
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
 ```
 Function Circular_Linked_list_add_end( START , data)
 1. new_node = new node
@@ -98,7 +117,10 @@ Function Circular_Linked_list_add_end( START , data)
 
 ```
 
-### Deleting a node inbetween
+### Deleting a node in between
+
+Time complexity: __O(n)__
+Space complexity: __O(1)__
 
 ```
 Function Circular_Linked_list_delete_between(START , item)
@@ -120,6 +142,9 @@ Function Circular_Linked_list_delete_between(START , item)
 
 ### Deleting a node at the end
 
+Time complexity: __O(n)__
+Space complexity: __O(1)__
+
 ```
 Function Circular_Linked_list_delete_end(START)
 1. if( START == NULL)
@@ -139,6 +164,9 @@ Function Circular_Linked_list_delete_end(START)
 ```
 
 ### Deleting a node at the beginning
+
+Time complexity: __O(1)__
+Space complexity: __O(1)__
 
 ```
 Function Cirucular_Linked_list_delete_begin(START)
