@@ -5,6 +5,9 @@ author: "Doubly Linked List "
 permalink: /Doubly-Linked-List/
 ---
 
+A linked list is a linear collection of data elements called nodes(data and address) each pointing to the next node by means of a pointer(variable which contains the address of next node). It is a data structure consisting of a group of nodes which together represent a sequence.A Doubly linked list has a previous pointer in the node in addition with the features of single linked list. This previous node pointes to node preceding the current node.
+
+
 
 * [Addition after the node](#addition-after-the-node)
 
@@ -14,7 +17,7 @@ permalink: /Doubly-Linked-List/
 
 * [Add item at the end](#add-item-at-the-end)
 
-* [Deleting a node inbetween](#deleting-a-node-inbetween)
+* [Deleting a node in between](#deleting-a-node-in-between)
 
 * [Deleting a node at the end](#deleting-a-node-at-the-end)
 
@@ -22,6 +25,11 @@ permalink: /Doubly-Linked-List/
 
 
 ### Addition after the node
+
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
 
 ```
 Function Doubly_Linked_list_add_After( START , data , item)   //item is the data of the node after which we need to insert
@@ -43,6 +51,11 @@ Function Doubly_Linked_list_add_After( START , data , item)   //item is the data
 
 ### Add before the node
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
+
 ```
 Function Doubly_Linked_list_add_before( START , data , item) 
 1. new_node = new node
@@ -63,6 +76,11 @@ Function Doubly_Linked_list_add_before( START , data , item)
 
 ### Add item at the beginning
 
+Time complexity: __O(1)__
+
+Space complexity: __O(1)__
+
+
 ```
 1. Function doubly_linear_linked_list_add_begin( START , data )
 2. new_node = new node
@@ -82,6 +100,11 @@ Function Doubly_Linked_list_add_before( START , data , item)
 
 ### Add item at the end
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
+
 ```
 Function Doubly_Linked_list_add_end( START , data)
 1. new_node = new node
@@ -100,7 +123,11 @@ Function Doubly_Linked_list_add_end( START , data)
 
 ```
 
-### Deleting a node inbetween
+### Deleting a node in between
+
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
 
 ```
 Function Doubly_Linked_list_delete_between(START , item)
@@ -123,6 +150,10 @@ Function Doubly_Linked_list_delete_between(START , item)
 
 ### Deleting a node at the end
 
+Time complexity: __O(n)__
+
+Space complexity: __O(1)__
+
 ```
 Function Doubly_Linked_list_delete_end(START)
 1. if( START == NULL)
@@ -138,6 +169,10 @@ Function Doubly_Linked_list_delete_end(START)
 ```
 
 ### Deleting a node at the beginning
+
+Time complexity: __O(1)__
+
+Space complexity: __O(1)__
 
 ```
 Function Doubly_Linked_list_delete_begin(START)
