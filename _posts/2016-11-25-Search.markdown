@@ -4,11 +4,31 @@ title:  "Search Algorithms"
 author: "Binary Search"
 permalink: /Search Algorithms/
 ---
-* [Binary Search](#binary-search)
 
-* [Interpolation Search](#interpolation-search)
+To determine whether an element is present in a data structure or not and also to determine the position of the element.
+
+For instance:-
+
+Array={10,5,6,2,1}
+
+Input: search(array , 6)
+
+Output: 2 (indexing in array begins from 0)
+
+Input: search(array , 7)
+
+Output: Element not found
+
+
+
+* #### [Binary Search](#binary-search)
+
+* #### [Interpolation Search](#interpolation-search)
+
 
 ### Binary Search 
+
+Time complexity : __O(log(n))__
 
 ```
 1. Function binary_search(begin, end , array[] ,value) // value is the item to be searched
@@ -24,9 +44,9 @@ permalink: /Search Algorithms/
 11. end binary_search
 
 ```
-
 ### Interpolation Search
 
+Time complexity : __O(n)__
 
 ```
 1. Function interpolation_search( array[] , size , item )
@@ -55,4 +75,4 @@ permalink: /Search Algorithms/
 
 [BACK TO THE TOP](#top)                                           
 
- [![](/img/back.png)](/Search/)
+ [![](/img/back.png)](/search)
