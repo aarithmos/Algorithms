@@ -30,6 +30,13 @@ permalink: /Numbers/
 
 ### Prime Generating Algorithm
 
+A Prime Number can be divided evenly only by 1, or itself. And it must be a whole number greater than 1.<br>
+For instance:-
+Input : 7<br>
+Output: is prime ( 7 has no factors other than 1 and 7 itself) <br>
+Input : 8<br>
+Output: is not prime ( 8 has factors: 2,4,1,8) 
+
 ```
 1. Function isprime(value)
 2. if value modulus 2 == 0
@@ -46,6 +53,12 @@ permalink: /Numbers/
 ```
 
 ### Armstrong Number
+
+An Armstrong number of three digits is an integer such that the sum of the cubes of its digits is equal to the number itself.<br>
+For Instance:-<br>
+Input: 153<br>
+Output: is an Armstrong number<br>
+*note: 1*1*1=1 , 5*5*5=125 , 3*3*3=27 . 1+125+27=153 ie the number itself
 
 ```                                       
 Function Armstrong( n )
@@ -67,6 +80,11 @@ Function Armstrong( n )
 
 ### Reverse Digits
 
+To put digits of a number in reverse order<br>
+For instance:-<br>
+Input : 3217<br>
+Output: 7123
+
 ```
 1. Function digits_in_reverse( n )                              
 2. while( n > 0 )
@@ -80,6 +98,14 @@ Function Armstrong( n )
 ```
 
 ### Palindrome Number
+
+A palindromic number or numeral palindrome is a number that remains the same when its digits are reversed.<br>
+For Instance :- <br>
+Input: 1221<br>
+Output: is palindrome(reverse = 1221)<br>
+Input: 1231<br>
+Output: is not palindrome(reverse = 1321)
+
 
 ```
 Function Palindrome_number ( n )
@@ -100,6 +126,11 @@ Function Palindrome_number ( n )
 
 ### Factorial of a Number
 
+Factorial of a number is the product of all integers such that 1<= integer <=number. If the number is ‘n’ then its factorial is represented as n!.<br>
+For instance :-<br>
+Input : 5<br>
+Output: 120 (factorial(5) = 5 * 4 * 3 *2 *1 = 120) 
+
 ```
 Function Factorial( n ) //where n is the number who’s factorial is required
 1. f = 1                                                                     
@@ -113,6 +144,8 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 ```
 
 ### Fibonacci Series
+
+A series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc.
 
 ```
 1. Function Fibonacci( n )  // where n is the number of fibonacci numbers you want
@@ -142,6 +175,11 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 
 ### Greatest Common Divisor
 
+In mathematics, the greatest common divisor (gcd) of two or more integers, when at least one of them is not zero, is the largest positive integer that divides the numbers without a remainder.<br>
+For instance :-<br>
+Input: gcd(12 , 8)<br>
+Output : 4
+
 ```
 1. Function gcd( a , b )
 2. if ( b == 0 )
@@ -154,6 +192,9 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 ```
 
 ### Sum of cube of n natural numbers with loop
+
+Input: 3<br>
+Output : 36 (1*1*1 + 2*2*2 +3*3*3 = 36) 
 
 ```
 1. Function sum_cube( n )
@@ -169,6 +210,9 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 
 ### Sum of cube of n natural numbers without loop
 
+Input: 3<br>
+Output : 36 (1*1*1 + 2*2*2 +3*3*3 = 36)
+
 ```
 1. Function sum_of_cube(  n )
 2. sum = (n*n*(n+1)*(n+1))/4
@@ -177,6 +221,9 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 ```
 
 ### Swap two numbers without third variable
+
+Input : a =3 , b=4<br>
+Output: a=4  , b=3
 
 ```
 1. Funciton swap( num1 , num2 )
@@ -188,4 +235,4 @@ Function Factorial( n ) //where n is the number who’s factorial is required
 
 [BACK TO THE TOP](#top)                                           
 
- [![](/img/back.png)](/Search/)      
+ [![](/img/back.png)](/search)      
