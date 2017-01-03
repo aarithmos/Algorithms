@@ -39,4 +39,4 @@ Time Complexity: __O(m*n)__
 
 [BACK TO THE TOP](#top)
 
-[![](/img/back.png)](/search)
+[![](/img/back.png)](/Search)
