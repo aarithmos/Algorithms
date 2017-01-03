@@ -6,12 +6,16 @@ permalink: /Backtracking Algorithms/
 ---
 
 
-[N-Queen Problem](#n-queen-problem)
+In backtracking algorithms you try to build a solution one step at a time. If at some step it become clear that the current path that you are on cannot lead to a solution you go back to the previous step (backtrack) and choose a different path. Basically once you exhaust all your options at a certain step you go back.
+
+* [N-Queen Problem](#n-queen-problem)
 
 
-[Sum of subset Problem](#sum-of-subset-problem)
+* [Sum of subset Problem](#sum-of-subset-problem)
 
 ### N-Queen Problem
+
+The eight queens puzzle is the problem of placing eight chess queens on an 8×8 chessboard so that no two queens threaten each other. Thus, a solution requires that no two queens share the same row, column, or diagonal.
 
 ```
 Function N-queen ( row , num )        //num is the number of queens to be inserted at row
@@ -43,6 +47,28 @@ Function Place( row , column )
 
 ### Sum of subset Problem
 
+Is there a possible subset of the given set of elements whose sum is x? This problem is refered to as sum of subset problem.
+For Instance:-
+
+Array = {1,2,3,4,5}
+
+Input: 7
+
+Output: Yes 
+
+__Note__: 3 possible subsets exists whose sum of all elements of set is 7
+
+{1,2,4}
+
+{3,4}
+
+{2,5} 
+
+Input: 20
+
+Output: No (no possible combination exist of the given elements whos sum is 20) 
+
+
 ```
 Function Sum_of_subset( array[] , size , sum)
 1. if( sum == 0 )
@@ -58,4 +84,4 @@ Function Sum_of_subset( array[] , size , sum)
 
 [BACK TO THE TOP](#top)                                           
 
- [![](/img/back.png)](/Search/)
+ [![](/img/back.png)](/search)
