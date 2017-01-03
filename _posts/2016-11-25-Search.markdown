@@ -44,6 +44,7 @@ Time complexity : __O(log(n))__
 11. end binary_search
 
 ```
+
 ### Interpolation Search
 
 Time complexity : __O(n)__
