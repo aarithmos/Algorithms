@@ -19,6 +19,18 @@ permalink: /String Manipulation/
 
 ### Palindrome 
 
+A palindrome String is a string which has same character position for each character of a string when compared with its reverse form , in other words when a palindrome string is reversed then it is identical to its parent string .
+For instance :-  
+
+‘NAMAN’ is a palindrome as its reverse is also ‘NAMAN’ whereas word ‘PROG’ is not a palindrome as its reverse is ‘GORP’ which is not same as its parent string
+
+Complexity:-
+
+Time complexity:  __O(n/2)__
+
+Space complexity:  __O(1)__
+
+
 ```
 Palindrome character
 
@@ -37,6 +49,23 @@ Function Palindrome_char( char[] , n )      //char[] is character array & n is l
 ```
 
 ### Index of Character in String
+
+A Function which takes String and character as input and returns the position of the character in the string and returns -1 if the character is not present in the string.
+
+For instance :-
+
+Input : String = ‘Rohan’ , Character = ‘h’
+
+Output: 2
+
+Note: Answer is not 3 and 2 because indexing in an array(String array in this case) 
+begins from 0 & not 1
+
+Complexity:-
+
+Time complexity:  __O(n)__   where ‘n’ is the number of elements in the string 
+
+Space complexity:  __O(1)__ 
 
 ```
 String Index of char
@@ -57,6 +86,20 @@ String Index of char
 
 ### String Length
 
+A function which returns the number of characters present in the string (also popularly referred as length of string)
+
+For instance :-
+
+Input: String = ‘Algorithm’
+
+Output : 9
+
+Complexity:- O(n) where ‘n’ is the number of elements in the string
+
+Time complexity: __O(n)__
+
+Space complexity:  __O(1)__
+
 ```
 String length
 1. Function String_length( char[] )
@@ -69,6 +112,22 @@ String length
 ```
 
 ### Character Position
+
+A function which returns the character at a particular position and also determines if the position enquired for is within the boundary of the String of not (0<=pos<String_length).
+
+For instance :-
+
+Input : String = ‘Algorithm’ pos = 3
+
+Output : ‘o’
+
+Note : Indexing of a String character begins from 0
+
+Complexity:-
+
+Time complexity:  __O(1)__
+
+Space complexity:  __O(1)__
 
 ```
 Character At position
@@ -83,4 +142,4 @@ Character At position
 
 [BACK TO THE TOP](#top)                                           
 
- [![](/img/back.png)](/Search/)
+ [![](/img/back.png)](/search)
