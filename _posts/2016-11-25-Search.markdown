@@ -45,7 +45,7 @@ Time complexity : __O(log(n))__
 
 ```
 
-### Interpolation Search
+###  Interpolation Search
 
 Time complexity : __O(n)__
 
