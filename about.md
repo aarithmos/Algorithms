@@ -4,11 +4,8 @@ title: About
 permalink: /about/
 ---
 
-#### The English word ‘algorithm’ comes from Medieval Latin word algorism and the Greek word “arithmos”(ἀριθμός).
-
-* An Algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output." In other words, algorithms are like road maps for accomplishing a given, well-defined task.
-
-* However, it's important to note that a programming algorithm is not computer code. It's written in simple English (or whatever the programmer speaks). It doesn't beat around the bush--it has a start, a middle, and an end 
+An Algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values as output." In other words, algorithms are like road maps for accomplishing a given, well-defined task.
+However, it's important to note that a programming algorithm is not computer code. It's written in simple English (or whatever the programmer speaks). It doesn't beat around the bush--it has a start, a middle, and an end 
 
 #### __Why use algorithms and not simply write code ?__
 
