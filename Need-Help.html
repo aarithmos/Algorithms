@@ -1,0 +1,90 @@
+---
+layout: s-layout
+title: Need Help?
+permalink: /Need-Help/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<style> 
+h3{
+font-family: 'Raleway', sans-serif;
+}
+input[type=text] {
+    width: 350px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 0px 0px; 
+    background-repeat: no-repeat;
+    padding: 8px 15px 8px 20px;
+ 
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+.button {
+  display: inline-block;
+  border-radius: 15px;
+  background-color: white;
+  border: thin black solid;
+  color: black;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  margin: 2.5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<form action="https://formspree.io/grohan95@gmail.com" method="POST">
+	<left>
+    <h3>Tell us the problem and we'll get back to you with a SolutioN:)</h3><input type="text" name="User Question"type="text" id="User">
+      <br>
+  <br>
+  <h3>Email</h3>
+  <input type="text" name="User Question"type="text" id="User">
+  <br>
+  <br>
+  <button class="button" style="vertical-align:middle"><span>Submit </span></button>
+  <input type="hidden" name="_next" value="{{site.baseurl}}/Thanks" />
+  
+  </left>
+</form>
+
+</body>
+</html>
