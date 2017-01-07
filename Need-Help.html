@@ -83,17 +83,60 @@ input[type=email]:focus {
   opacity: 1;
   right: 0;
 }
+select#soflow, select#soflow-color {
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 2px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 400px;
+}
+
+select#soflow-color {
+   color: #fff;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 10px;
+}
 </style>
+<script type="text/javascript">
+var e = document.getElementById("soflow");
+var strUser = e.options[e.selectedIndex].text;
+</script>
 </head>
 <body>
 
 <form action="https://formspree.io/grohan95@gmail.com" method="POST">
 	<left>
-    <h3>Tell us the problem and we'll get back to you with a SolutioN:)</h3><input type="text" name="User Question" id="User">
+     <h3>Tell us the problem and we'll get back to you with a SolutioN:)</h3><input type="text" required name="User Question"type="text" id="User" onsubmit="return false;">
       <br>
   <br>
+<h3>Category</h3>
+  <select id="soflow">
+  <option></option>
+  <option>Dynamic Programming</option>
+  <option>Data Structures</option>
+</select>
+<input type="hidden" name="Category" value=strUser />
+<br>
+<br>
   <h3>Email</h3>
-  <input type="email" name="User Email" id="User" placeholder="me@example.com">
+    <input type="email" required name="User Email"id="User" onsubmit="return false;">
   <br>
   <br>
   <button class="button" style="vertical-align:middle"><span>Submit </span></button>
