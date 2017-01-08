@@ -1,5 +1,4 @@
 ---
-layout: s-layout
 permalink: /Johnson's-Algorithm/
 ---
 <html>
