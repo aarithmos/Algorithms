@@ -1,0 +1,142 @@
+---
+layout: post
+title:  "Stack"
+author: "Stack "
+permalink: /Stack/
+---
+
+A stack is a basic data structure that can be logically thought as linear structure represented by a real physical stack or pile,a structure where insertion and deletion of items takes place at one
+end called top of the stack.(Last In First Out)
+
+* [Deletion from stack Array](#deletion-from-stack-array)
+
+* [Deletion from Stack List](#deletion-from-stack-list)
+
+* [Stack Insertion Array](#stack-insertion-array)
+
+* [Stack Insertion List](#stack-insertion-list)
+
+* [Stack Traverse Array](#stack-traverse-array)
+
+* [Stack Traverse List](#stack-traverse-list)
+
+### Deletion from Stack Array
+
+```
+Deletion Stack Array (Pop operation)
+
+1. Function Stack_pop(top , array[])
+2. if( top==0 )
+3.    print( “Underflow” );
+4.    return
+5.    end if
+6. top--
+7.  end Stack_pop
+
+```
+
+Time Complexity :- __O(1)__
+
+
+### Deletion from Stack List
+
+```
+Deletion Stack List (Pop operation)
+
+1. Function Stack_pop(top , START , list)
+2. if( START == NULL )
+3.    print( “Underflow” );
+4.    return
+5.    end if
+6. ptr = START
+7. while( ptr.NEXT != top )
+8.    ptr = ptr.NEXT
+9.    end while
+10. ptr = top
+11. temp = ptr.NEXT
+12. delete(temp) 
+13.  end Stack_pop
+
+```
+
+Time Complexity :- __O(n)__
+
+### Stack Insertion Array
+
+```
+Stack insertion Array (Push operation)
+
+1. Function Stack_push (top , array[] , max , num)      //num is the value to be inserted 
+2. if( top == max ) 
+3.    print(“overflow”)
+4.    return
+5.    end if
+6. top++
+7. a[top] = num
+8. end Stack_push
+
+```
+
+Time Complexity :- __O(1)__
+
+### Stack Insertion List
+
+```
+Stack insertion List (Push operation)
+
+1. Function Stack_push (top , list , num)      //num is the value to be inserted 
+2. new_node = new list                         // allocating memory to new node of list
+3. top.NEXT = new_node
+4. top = new_node
+5. end Stack_push
+
+```
+
+Time Complexity :- __O(1)__
+
+### Stack Traverse Array
+
+```
+Stack traverse Array (Peep operation)
+
+1. Function peep( array[] , top )
+2. if( top == 0 )
+3.    print( “Underflow” )
+4.    return 
+5.    end if
+6. ptr = top
+7. while(ptr != 0 ) 
+8.    print( “array[ptr]” )
+9.    ptr--
+10.    end while
+11. end peep  
+
+```
+
+Time Complexity :- __O(n)__
+
+### Stack Traverse List
+
+```
+Stack traverse List (Peep operation)
+
+1. Function peep( list , top )
+2. if( top == NULL )
+3.    print( “Underflow” )
+4.    return 
+5.    end if
+6. ptr = top
+7. while(ptr.NEXT != NULL ) 
+8.    print( “ptr.data” )
+9.    ptr = ptr.NEXT
+10.    end while
+11. end peep
+
+```
+Time Complexity :- __O(n)__
+
+
+[BACK TO THE TOP](#top)                                           
+
+ [![](/img/back.png)](/search)
+
