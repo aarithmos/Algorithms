@@ -17,7 +17,7 @@ permalink: /Arrays/
 
 * [Insertion at position](#insertion-at-position)
 
-* [Array rotate](#array-rotate)
+* [Array Rotate](#array-rotate)
 
 
 ### Delete from end
@@ -116,7 +116,7 @@ permalink: /Arrays/
 
 ```
 
-### Array rotate
+### Array Rotate
 
 ```
 1. Function Array_rotate( array[] , n , k ) //n is size of array and k is position you want to rotate
