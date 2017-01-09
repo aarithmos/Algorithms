@@ -115,6 +115,7 @@ permalink: /Arrays/
 12. end array_delete  
 
 ```
+
 ### Array rotate
 
 ```
