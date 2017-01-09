@@ -1,0 +1,109 @@
+---
+layout: post
+title:  "Trees"
+permalink: /Trees/
+---
+
+Tree is a non-linear Data Structure which consists of a group of nodes with directed or undirected edges and an acyclic structure. The parent node of all nodes is referred to as root node.
+
+### Binary Trees
+
+A binary tree is a finite set of nodes which is either empty or consists of a root and two disjoint binary trees called the left subtree and the right subtree. Where left subtree has key values less than the parent whereas right subtree has key values greater than the parent node.
+
+* [Insertion of Binary Trees](#insertion-of-binary-trees)
+
+* [Tree Traversal-NLR](#tree-traversal-nlr)
+
+* [Tree Traversal-LNR](#tree-traversal-lnr)
+
+* [Tree Traversal-LRN](#tree-traversal-lrn)
+
+
+### Insertion of Binary Trees
+
+```
+	1.Function insert_tree(root , data)
+	2.	new_node = new node
+	3.	If(root == NULL)
+	4.	   root = new_node
+	5.	   return 
+	6.	   end if
+	7.	focus_node = root 
+	8.	while( true )
+	9.	   parent = focus_node
+	10.	   if( data < focus_node.data )
+	11.	      focus_node = focus.left
+	12.	      if( focus_node == NULL )
+	13.	         parent.left = new_node
+	14.	         return
+	15.	         end if
+	16.	      end if
+	17.	   else
+	18.	      focus_node=focus_node.right
+	19.	   If( focus_node == NULL )
+	20.	      parent.right = new_node
+	21.	      return
+	22.	      end if
+	23.	    end else
+	24.	   end while  
+	25.end insert_tree     
+
+```
+
+Time complexity :- __O(log(n))__
+
+### Tree traversal-NLR
+
+```
+Tree traverse(NLR) 
+1.	Function search_tree(node) //node is initialized as root
+2.	 If( node!=NULL )
+3.	   print( node.data )
+4.	   search_tree(node.left)
+5.	   search_tree(node.right)
+6.	   end if
+7.	end search_tree  
+
+```
+
+Time complexity:- __O(n)__
+
+
+### Tree traversal-LNR
+
+```
+
+ Tree traverse(LNR) 
+1.Function search_tree(node)   //node is initialized as root
+2.	If( node!=NULL )
+3.	   search_tree(node.left)
+4.	   print( node.data )
+5.	   search_tree(node.right)
+6.	   end if
+7.end search_tree  
+
+```
+
+Time complexity:- __O(n)__
+
+### Tree traversal-LRN
+
+```
+
+ Tree traverse(LRN) 
+1.	Function search_tree(node)   //node is initialized as root
+2.	If( node!=NULL )
+3.	   search_tree(node.left)
+4.	   search_tree(node.right)
+5.	   print( node.data )
+6.	   end if
+7.	end search_tree  
+
+
+```
+
+Time complexity:- __O(n)__
+
+[BACK TO THE TOP](#top)                                           
+
+ [![](/img/back.png)](/Search)

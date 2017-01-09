@@ -1,0 +1,146 @@
+---
+layout: post
+title:  "Arrays"
+author: "Arrays "
+permalink: /Arrays/
+---
+
+* [Delete from end](#delete-from-end)
+
+* [Insert at a position](#insert-at-a-position)
+
+* [Deletion at beginning](#deletion-at-beginning)
+
+* [Insertion at end](#insertion-at-end)
+
+* [Insertion at beginning](#insertion-at-beginning)
+
+* [Insertion at position](#insertion-at-position)
+
+* [Array rotate](#array-rotate)
+
+
+### Delete from end
+
+```
+
+1. Function array_delete( array[] , size )
+2. if( size == 0)
+3.    print( “Array is empty” )
+4.    return
+5.    end if 
+6. size--
+7. end array_delete  
+
+```
+
+### Insert at a position
+
+```
+1. Function array_insert (array[] , size , pos , item ) // item is element to be inserted at index pos 
+2. size = size + 1  
+3. i = pos 
+4. while( i < size-1 )
+5.    array[i+1] = array[i]
+6.    i++
+7. array[pos] = item
+8. end array_insert 
+
+```
+
+### Deletion at beginning
+
+```
+1. Function array_delete( array[] , size )
+2. if( size == 0)
+3.    print( “Array is empty” )
+4.    return
+5.    end if 
+6. i = size 
+7. while( i > 0 )
+8.    array[i-1] = array[i]
+9.    i--
+10.   end while
+11. size--  
+12. end array_delete  
+
+```
+
+### Insertion at end
+
+```
+1. Function array_insert( array[] , size , max , item )
+2. if( size == max )
+3.    print( “The array is full” )
+4.    return 
+5.    end if
+6. size = size + 1
+7. array[size] = item
+8. end array_insert    
+
+```
+
+### Insertion at beginning
+
+```
+1. Function array_insert( array[] , size , max , item )
+2. if( size == max )
+3.    print( “The array is full” )
+4.    return 
+5.    end if
+6. size = size + 1
+7. i = 0 
+8. while( i <size )
+9.    array[i+1] = array[i]
+10.    end while
+11. array[0] = item
+12. end array_insert
+
+```
+
+### Insertion at position
+
+```
+1. Function array_delete( array[] , size , pos )
+2. if( size == 0)
+3.    print( “Array is empty” )
+4.    return
+5.    end if 
+6. i = pos 
+7. while( i < size )
+8.    array[i] = array[i+1]
+9.    i++
+10.   end while
+11. size--  
+12. end array_delete  
+
+```
+### Array rotate
+
+```
+1. Function Array_rotate( array[] , n , k ) //n is size of array and k is position you want to rotate
+2. k = k % n //array rotate at n would be equal to 0 so we take mod of k 
+3. temp[k]   //declare temperory array 
+4. x = n – k
+5. i = x
+6. while( i < n )
+7.    temp[i-x] = a[i]
+8.    i++
+9.    end while
+10. i = x – 1;
+11. while( i>=0 )
+12.    a[i+k] = a[i]
+13.    i--;
+14.    end while
+15. i = 0
+16. while( i<k )
+17.    a[i] = b[i]
+18.    i++
+19.    end while
+20. end Array_rotate    
+
+```
+
+[BACK TO THE TOP](#top)                                           
+
+ [![](/img/back.png)](/search)

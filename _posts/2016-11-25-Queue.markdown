@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Queue"
+author: "Queue "
+permalink: /Queue/
+---
+
+A list of data items, commands, etc., stored so as to be retrievable in a definite order,the order of insertion.(First In First Out)
+
+* [Add an element to Queue](#add-an-element-to-queue)
+
+* [Delete an element from Queue](#delete-an-element-from-queue)
+
+* [Traverse the Queue](#traverse-the-queue)
+
+
+### Add an element to Queue
+
+```
+
+1.Function enqueue( queue[] , data , rear , front , max )
+2.  If( rear == max )
+3.    print( “Queue is full” )
+4.    return
+5.  end if
+6. rear++
+7. queue[rear] = data
+8.end enqueue 
+
+```
+
+Time complexity :- __O(1)__
+
+### Delete an element from Queue
+
+```
+
+1.Function dequeue( queue[] , rear , front )
+2.  If( rear < front )
+3.    print( “Queue is empty” )
+4.    return
+5.  end if
+6. front++
+7.end dequeue   
+
+```
+
+Time complexity :- __O(1)__
+
+### Traverse the Queue
+
+```
+1.Function traverse_queue( queue[] , rear , front )
+2.  If( rear < front )
+3.    print( “Queue is empty” )
+4.    return
+5.  end if
+6. i = front
+7.  while( i <= rear)
+8.    print( queue[i] )
+9.    i++
+10. end while  
+11.end traverse_queue   
+
+```
+
+Time complexity :- __O(n)__
+
+
+[BACK TO THE TOP](#top)                                           
+
+ [![](/img/back.png)](/search)
